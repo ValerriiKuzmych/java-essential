@@ -1,0 +1,46 @@
+package abstracttrain;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter document format: ");
+        String formatDoc = in.next();
+
+        while(true)
+        {
+            System.out.println("Enter document format: ");
+            formatDoc = in.next();
+
+            if(formatDoc.equals("DOC")){
+                AbstractHandler doc = new DOCHandler();
+                doc.open();
+                doc.create();
+                doc.change();
+                doc.save();
+            } else if (formatDoc.equals("XML")){
+                AbstractHandler xml = new XMLHandler();
+                xml.open();
+                xml.create();
+                xml.change();
+                xml.save();
+            }
+            else if (formatDoc.equals("TXT")) {
+                AbstractHandler txt = new TXTHandler();
+                txt.open();
+                txt.create();
+                txt.change();
+                txt.save();
+            } else if (formatDoc.equals("QUIT")) {
+                break;
+            } else
+                System.out.println("Failed format! Enter again!");
+        }
+
+
+    }
+}
