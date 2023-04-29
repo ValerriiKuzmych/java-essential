@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<adresses>
+    <adress order_number="2342432">
+        <city>Kiev</city>
+        <street>Lenina</street>
+        <house>15</house>
+        <index>13456</index>
+    </adress>
+    <adress order_number="4523435">
+        <city>Berlin</city>
+        <street>Dessauer</street>
+        <house>43</house>
+        <index>12689</index>
+    </adress>
+    <adress order_number="4565576">
+        <city>Napoli</city>
+        <street>Beach</street>
+        <house>12</house>
+        <index>12993</index>
+    </adress>
+</adresses>

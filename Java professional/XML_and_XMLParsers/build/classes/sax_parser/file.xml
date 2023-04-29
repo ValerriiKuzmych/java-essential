@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animal>
+	<cat>
+		<name>Marsel</name>
+		<age>7</age>
+		<breed>Sphynx</breed>
+		<weight>6</weight>
+	</cat>
+	<cat>
+		<name>Myrzik</name>
+		<age>5</age>
+		<breed>Oriental</breed>
+		<weight>4</weight>
+	</cat>
+	<cat>
+		<name>Brsik</name>
+		<age>3</age>
+		<breed>Siamese</breed>
+		<weight>3.75</weight>
+	</cat>
+	<cat>
+		<name>Matroskin</name>
+		<age>8</age>
+		<breed>British</breed>
+		<weight>4.5</weight>
+	</cat>
+	<cat>
+		<name>Galina</name>
+		<age>9</age>
+		<breed>British/Siamese</breed>
+		<weight>5</weight>
+	</cat>
+</animal>
